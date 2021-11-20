@@ -9,6 +9,7 @@ public class RegexURP {
 	        user.firstName("Sachin");
 	        user.lastName("Santosh");
 	        user.emailaddress("Sachin@gmail.com");
+	        user.phoneNo("91 9604315245");
 	    }
   }
 	
