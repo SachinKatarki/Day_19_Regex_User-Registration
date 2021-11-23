@@ -7,7 +7,7 @@ public class RegexURP {
 		  System.out.println("Welcome to the User Registration Problem using Regex!!");
 	        UserOperator user = new UserOperator();
 	        user.firstName("Sachin");
-	        user.lastName("Santosh");
+	        user.lastName("Kumar");
 	    }
 	
 	}
