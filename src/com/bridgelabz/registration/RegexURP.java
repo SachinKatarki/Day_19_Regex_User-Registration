@@ -10,8 +10,7 @@ public class RegexURP {
 	        user.lastName("Santosh");
 	        user.emailaddress("Sachin@gmail.com");
 	        user.phoneNo("91 9604315245");
-	        user.passRule("123asASD");
-	        user.passward("Sachinggg");
+	        user.passward("Sachin@123");
 	    }
   }
 	
