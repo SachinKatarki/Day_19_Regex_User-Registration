@@ -7,6 +7,7 @@ public class UserOperator {
 
 	private CharSequence firstName;
 	private CharSequence passRule1;
+	private String passward;
 
 	public void firstName(String string) {
 		 String regex = "^[A-Z]{1}[a-z]{2,}$";
@@ -67,6 +68,19 @@ public class UserOperator {
 	            System.out.println("Your Passward " + passRule1 + " is Valid");
 	        } else {
 	            System.out.println("Your Passward " + passRule1 + " is Invalid");
+	            
+	        }
+		}
+	   public void passward(String string) {
+		   String regex = "^[0-9a-zA-Z]{8}$";
+	        Pattern pattern = Pattern.compile(regex);
+	        Matcher matcher = pattern.matcher(passRule1);
+	        boolean valid = matcher.matches();
+	        if (valid == true) {
+	            System.out.println("Your Passward " + passward + " is Valid");
+	        } else {
+	            System.out.println("Your Passward " + passward+ " is Invalid");
+	            
 	        }
 		}
     }
