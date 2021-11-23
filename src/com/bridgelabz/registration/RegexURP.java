@@ -11,7 +11,7 @@ public class RegexURP {
 	        user.emailaddress("Sachin@gmail.com");
 	        user.phoneNo("91 9604315245");
 	        user.passRule("123asASD");
-	        user.passward("Sachin1234");
+	        user.passward("Sachinggg");
 	    }
   }
 	
